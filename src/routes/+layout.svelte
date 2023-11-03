@@ -23,6 +23,9 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Bryant Humphry</title>
+</svelte:head>
 <div
 	class="w-full h-screen overflow-hidden flex flex-col justify-start items-center">
 	<div
