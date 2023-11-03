@@ -1,9 +1,0 @@
-import{s as v,n as g}from"../chunks/scheduler.d329acd7.js";import{S as _,i as $,g as p,s as d,r as w,h as m,x as f,c as u,u as x,k as C,a as i,v as k,d as P,t as b,f as c,w as j}from"../chunks/index.403eca08.js";import{P as y}from"../chunks/Project.0c002e2d.js";function T(r){let t,l=`Weather Gods was a smaller team project that was completed and shipped
-		in early 2018 for a game development class at DePaul University.
-		Responsible for in game art assets and over all game design through the
-		project.`,n,a,o=`The idea for this game was to have an original take on a tower defense
-		game. The player would control The Kraken and try to keep the villagers
-		from escaping the island. The player also had various weather controls
-		to also keep the villagers in place. Villagers would build bridges to
-		escape the center island and ride boats off of the island. Once 100
-		villagers escaped the island the game was over.`;return{c(){t=p("p"),t.textContent=l,n=d(),a=p("p"),a.textContent=o},l(e){t=m(e,"P",{"data-svelte-h":!0}),f(t)!=="svelte-1nv2482"&&(t.textContent=l),n=u(e),a=m(e,"P",{"data-svelte-h":!0}),f(a)!=="svelte-wwfrk4"&&(a.textContent=o)},m(e,s){i(e,t,s),i(e,n,s),i(e,a,s)},p:g,d(e){e&&(c(t),c(n),c(a))}}}function W(r){let t,l="<b>Weather Gods</b>",n,a,o;return a=new y({props:{cover:r[0],$$slots:{default:[T]},$$scope:{ctx:r}}}),{c(){t=p("span"),t.innerHTML=l,n=d(),w(a.$$.fragment),this.h()},l(e){t=m(e,"SPAN",{class:!0,"data-svelte-h":!0}),f(t)!=="svelte-1p71jsk"&&(t.innerHTML=l),n=u(e),x(a.$$.fragment,e),this.h()},h(){C(t,"class","uppercase text-5xl")},m(e,s){i(e,t,s),i(e,n,s),k(a,e,s),o=!0},p(e,[s]){const h={};s&2&&(h.$$scope={dirty:s,ctx:e}),a.$set(h)},i(e){o||(P(a.$$.fragment,e),o=!0)},o(e){b(a.$$.fragment,e),o=!1},d(e){e&&(c(t),c(n)),j(a,e)}}}function G(r){return[{src:"/Weather.png",title:"Weather Gods"}]}class M extends _{constructor(t){super(),$(this,t,G,W,v,{})}}export{M as component};

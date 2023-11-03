@@ -1,8 +1,0 @@
-import{s as h,n as d}from"../chunks/scheduler.d329acd7.js";import{S as _,i as $,g as m,s as g,r as v,h as u,x as f,c as y,u as z,k as x,a as c,v as b,d as w,t as P,f as i,w as j}from"../chunks/index.403eca08.js";import{P as T}from"../chunks/Project.0c002e2d.js";function C(o){let e,l=`Puzzle Temple is a currently unfinished concept project based on block
-		style puzzle games. As someone that really enjoys puzzle games this was
-		an attempt to create a game completely on my own with very little
-		assistance. Throughout the life of this project I've focused on
-		interesting mechanics and the balance of using those mechanics with an
-		overarching theme. I've also focused heavily on scalability. Below
-		you'll find a link to an early prototype build of the project that's
-		downloadable and playable from my itch page.`;return{c(){e=m("p"),e.textContent=l},l(n){e=u(n,"P",{"data-svelte-h":!0}),f(e)!=="svelte-1d6lh79"&&(e.textContent=l)},m(n,a){c(n,e,a)},p:d,d(n){n&&i(e)}}}function k(o){let e,l="<b>Puzzle Temple</b>",n,a,r;return a=new T({props:{cover:o[0],$$slots:{default:[C]},$$scope:{ctx:o}}}),{c(){e=m("span"),e.innerHTML=l,n=g(),v(a.$$.fragment),this.h()},l(t){e=u(t,"SPAN",{class:!0,"data-svelte-h":!0}),f(e)!=="svelte-wx37zm"&&(e.innerHTML=l),n=y(t),z(a.$$.fragment,t),this.h()},h(){x(e,"class","uppercase text-5xl")},m(t,s){c(t,e,s),c(t,n,s),b(a,t,s),r=!0},p(t,[s]){const p={};s&2&&(p.$$scope={dirty:s,ctx:t}),a.$set(p)},i(t){r||(w(a.$$.fragment,t),r=!0)},o(t){P(a.$$.fragment,t),r=!1},d(t){t&&(i(e),i(n)),j(a,t)}}}function S(o){return[{src:"/puzzle_temp.png",title:"Puzzle Temple"}]}class L extends _{constructor(e){super(),$(this,e,S,k,h,{})}}export{L as component};
