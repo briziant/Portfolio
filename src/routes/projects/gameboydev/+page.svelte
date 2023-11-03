@@ -24,7 +24,7 @@
 <a
 	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
 	href="https://briziant.itch.io/">
-	Itch.io - Briziant
+	Gameboy projects
 	<IconLink />
 </a>
 <Project {cover} {images}>
