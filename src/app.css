@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-pallet-background text-pallet-text;
+}
+
+.link {
+	@apply transition ease-in-out duration-150;
+}
+
+.bg-accent {
+	@apply bg-gradient-to-br from-pallet-accent via-pallet-primary to-pallet-secondary;
+}
+
+.card > * {
+	@apply p-8 shadow-md shadow-pallet-text/30 text-pallet-background rounded-3xl bg-accent text-2xl;
+}
