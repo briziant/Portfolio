@@ -1,5 +1,5 @@
 <script>
-    import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	import '../app.css';
 	import { IconBrandLinkedin } from '@tabler/icons-svelte';
 	const menu = [
@@ -9,16 +9,17 @@
 		},
 		{
 			name: 'resume',
-			link: base + '/resume',
+			link: base + '/bryant_humphry_resume.pdf',
+			target: '_blank',
 		},
 		{
 			name: 'contact',
-			link: base + '/contact',
+			link: 'mailto:humphrybryant@gmail.com',
 		},
 		{
 			icon: IconBrandLinkedin,
 			link: 'https://www.linkedin.com/in/bryant-humphry-594341136',
-			target: '_blank'
+			target: '_blank',
 		},
 	];
 </script>
@@ -47,7 +48,8 @@
 		</div>
 	</div>
 	<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-8" />
-	<div class="w-3/4 h-auto overflow-y-auto flex flex-col gap-4 align-middle items-center">
+	<div
+		class="w-3/4 h-auto overflow-y-auto flex flex-col gap-4 align-middle items-center">
 		<slot />
 	</div>
 </div>
