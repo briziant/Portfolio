@@ -11,6 +11,9 @@ export default {
           secondary: '#aff0fd',
           accent: '#5600b8'
         }
+      },
+      width: {
+        'video': '23rem'
       }
     },
   },

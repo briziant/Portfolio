@@ -8,6 +8,11 @@
 			title: 'Cinematic Portal Level Design',
 		},
 		{
+			src: base + '/house/HighresScreenshot00044.png',
+			link: base + '/projects/modernhouse',
+			title: 'Modern House project',
+		},
+		{
 			src: base + '/Still_2_Front.jpg',
 			link: base + '/projects/leveldesign',
 			title: 'level design',
@@ -23,14 +28,9 @@
 			title: 'weather gods',
 		},
 		{
-			src: base + '/',
+			src: base + '/gameboy/3V7IZS.png',
 			link: base + '/projects/gameboydev',
 			title: 'Gameboy Development',
-		},
-		{
-			src: base + '/',
-			link: base + '/projects/modernhouse',
-			title: 'Modern House project',
 		},
 	];
 </script>

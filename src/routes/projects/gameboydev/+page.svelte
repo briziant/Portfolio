@@ -1,15 +1,33 @@
 <script>
-    import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	import Project from '$lib/Project.svelte';
+	import { IconLink } from '@tabler/icons-svelte';
 
 	const cover = {
-		src: base + '/puzzle_temp.png',
-		title: 'Puzzle Temple',
+		src: base + '/gameboy/3V7IZS.png',
+		title: 'gameboy',
 	};
+
+	const images = [
+		{
+			src: base + '/gameboy/BwqAZS.png',
+			title: 'Friend Quest',
+		},
+		{
+			src: base + '/gameboy/V3cZjm.png',
+			title: 'Dad Joke Simulator',
+		},
+	];
 </script>
 
 <span class="uppercase text-5xl"><b>Gameboy Development</b></span>
-<Project {cover}>
+<a
+	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
+	href="https://briziant.itch.io/">
+	Itch.io - Briziant
+	<IconLink />
+</a>
+<Project {cover} {images}>
 	<p>
 		Below is a collection of various Gameboy games that I've worked on. The
 		development of these games was an exploration of the limitations of

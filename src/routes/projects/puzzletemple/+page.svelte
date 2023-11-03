@@ -1,6 +1,7 @@
 <script>
-    import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	import Project from '$lib/Project.svelte';
+	import { IconLink } from '@tabler/icons-svelte';
 
 	const cover = {
 		src: base + '/puzzle_temp.png',
@@ -9,6 +10,12 @@
 </script>
 
 <span class="uppercase text-5xl"><b>Puzzle Temple</b></span>
+<a
+	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
+	href="https://briziant.itch.io/puzzle-temple-prototype-v2">
+	Puzzle Temple prototype V.2 by briziant
+	<IconLink />
+</a>
 <Project {cover}>
 	<p>
 		Puzzle Temple is a currently unfinished concept project based on block
@@ -16,7 +23,7 @@
 		an attempt to create a game completely on my own with very little
 		assistance. Throughout the life of this project I've focused on
 		interesting mechanics and the balance of using those mechanics with an
-		overarching theme. I've also focused heavily on scalability. Below
+		overarching theme. I've also focused heavily on scalability. Above
 		you'll find a link to an early prototype build of the project that's
 		downloadable and playable from my itch page.
 	</p>

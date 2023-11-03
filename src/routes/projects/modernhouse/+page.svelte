@@ -1,15 +1,34 @@
 <script>
-    import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	import Project from '$lib/Project.svelte';
 
 	const cover = {
-		src: base + '/puzzle_temp.png',
-		title: 'Puzzle Temple',
+		src: base + '/house/HighresScreenshot00041.png',
+		title: 'Modern House',
 	};
+
+	const images = [
+		{
+			src: base + '/house/HighresScreenshot00023b.png',
+			title: 'Modern House 1',
+		},
+		{
+			src: base + '/house/HighresScreenshot00038.png',
+			title: 'Modern House 2',
+		},
+		{
+			src: base + '/house/HighresScreenshot00034.png',
+			title: 'Modern House 3',
+		},
+		{
+			src: base + '/house/HighresScreenshot00050.png',
+			title: 'Modern House 4',
+		},
+	];
 </script>
 
-<span class="uppercase text-5xl"><b>Puzzle Temple</b></span>
-<Project {cover}>
+<span class="uppercase text-5xl"><b>Modern House</b></span>
+<Project {cover} {images}>
 	<p>
 		The concept for this project was to create a modern house using only a
 		limited amount of materials. The main two being Concrete and Glass. From

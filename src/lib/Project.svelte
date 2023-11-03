@@ -19,13 +19,16 @@
 		<slot />
 	</div>
 	{#if cover}
-		<img class="rounded-3xl shadow-md shadow-pallet-text/30 object-cover" src={cover.src} alt={cover.title} />
+		<img
+			class="rounded-3xl shadow-md shadow-pallet-text/30 object-cover"
+			src={cover.src}
+			alt={cover.title} />
 	{/if}
 </div>
-<div class="flex flex-col gap-4 mx-16">
+<div class="flex flex-row gap-4 mx-16 flex-wrap">
 	{#each images as img}
 		<img
-			class="mshadow-md shadow-pallet-text rounded-3xl object-cover"
+			class="shadow-md shadow-pallet-text rounded-3xl object-cover"
 			src={img.src}
 			alt={img.title} />
 	{/each}
