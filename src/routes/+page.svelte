@@ -1,33 +1,35 @@
 <script>
+	import { base } from '$app/paths';
+
 	const proj = [
 		{
-			img: '/portal_1.png',
-			link: '/projects/portallevel',
+			src: base + '/portal_1.png',
+			link: base + '/projects/portallevel',
 			title: 'Cinematic Portal Level Design',
 		},
 		{
-			img: '/Still_2_Front.jpg',
-			link: '/projects/leveldesign',
+			src: base + '/Still_2_Front.jpg',
+			link: base + '/projects/leveldesign',
 			title: 'level design',
 		},
 		{
-			img: '/puzzle_temp.png',
-			link: '/projects/puzzletemple',
+			src: base + '/puzzle_temp.png',
+			link: base + '/projects/puzzletemple',
 			title: 'puzzle temple',
 		},
 		{
-			img: '/Weather.png',
-			link: '/projects/weathergods',
+			src: base + '/Weather.png',
+			link: base + '/projects/weathergods',
 			title: 'weather gods',
 		},
 		{
-			img: '/',
-			link: '/projects/gameboydev',
+			src: base + '/',
+			link: base + '/projects/gameboydev',
 			title: 'Gameboy Development',
 		},
 		{
-			img: '/',
-			link: '/projects/modernhouse',
+			src: base + '/',
+			link: base + '/projects/modernhouse',
 			title: 'Modern House project',
 		},
 	];
@@ -41,7 +43,7 @@
 			class="bg-accent w-full shadow-md shadow-pallet-text/30 overflow-hidden relative my-2 rounded-xl flex items-center justify-center align-middle transition ease-in-out text-4xl group">
 			<img
 				class="w-full max-h-48 transition duration-300 ease-in-out group-hover:brightness-50 rounded-md shadow-md object-cover"
-				src={p.img}
+				src={p.src}
 				alt={p.title} />
 			<div
 				class="uppercase absolute x-1/2 text-center transition duration-300 ease-in-out text-transparent group-hover:text-pallet-background">

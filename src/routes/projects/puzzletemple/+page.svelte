@@ -2,7 +2,7 @@
 	import Project from '$lib/Project.svelte';
 
 	const cover = {
-		src: '/puzzle_temp.png',
+		src: base + '/puzzle_temp.png',
 		title: 'Puzzle Temple',
 	};
 </script>

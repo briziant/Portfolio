@@ -2,7 +2,7 @@
 	import Project from '$lib/Project.svelte';
 
 	const cover = {
-		src: '/Weather.png',
+		src: base + '/Weather.png',
 		title: 'Weather Gods',
 	};
 </script>

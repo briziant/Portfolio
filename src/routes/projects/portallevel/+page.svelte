@@ -2,17 +2,17 @@
 	import Project from '$lib/Project.svelte';
 
 	const cover = {
-		src: '/Bryant_Humphry_Final_Lighting_Project_Still_1.jpg',
+		src: base + '/Bryant_Humphry_Final_Lighting_Project_Still_1.jpg',
 		title: 'Lighting Project Still 1',
 	};
 
 	const images = [
 		{
-			src: '/Bryant_Humphry_Final_Lighting_Project_Still_3.jpg',
+			src: base + '/Bryant_Humphry_Final_Lighting_Project_Still_3.jpg',
 			title: 'Lighting Project Still 3',
 		},
 		{
-			src: '/Bryant_Humphry_Final_Lighting_Project_Still_4.jpg',
+			src: base + '/Bryant_Humphry_Final_Lighting_Project_Still_4.jpg',
 			title: 'Lighting Project Still 4',
 		},
 	];

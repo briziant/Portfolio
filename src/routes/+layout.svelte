@@ -1,18 +1,19 @@
 <script>
+    import { base } from '$app/paths';
 	import '../app.css';
 	import { IconBrandLinkedin } from '@tabler/icons-svelte';
 	const menu = [
 		{
 			name: 'portfolio',
-			link: '/',
+			link: base + '/',
 		},
 		{
 			name: 'resume',
-			link: '/resume',
+			link: base + '/resume',
 		},
 		{
 			name: 'contact',
-			link: '/contact',
+			link: base + '/contact',
 		},
 		{
 			icon: IconBrandLinkedin,
