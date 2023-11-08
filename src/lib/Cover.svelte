@@ -1,0 +1,18 @@
+<script>
+	export let /** @type {string} */ href,
+		/** @type {string} */ src,
+		/** @type {string} */ title;
+</script>
+
+<a
+	{href}
+	class="bg-accent w-full shadow-md shadow-pallet-text/30 overflow-hidden relative my-2 rounded-xl flex items-center justify-center align-middle transition ease-in-out text-4xl group">
+	<img
+		class="w-full max-h-48 transition duration-300 ease-in-out group-hover:brightness-50 rounded-md shadow-md object-cover"
+		{src}
+		alt={title} />
+	<div
+		class="uppercase absolute x-1/2 text-center transition duration-300 ease-in-out text-transparent group-hover:text-pallet-background">
+		{title}
+	</div>
+</a>

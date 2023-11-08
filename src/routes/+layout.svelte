@@ -49,7 +49,7 @@
 	</div>
 	<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-8" />
 	<div
-		class="w-3/4 h-auto overflow-y-auto flex flex-col gap-4 align-middle items-center">
+		class=" relative w-3/4 h-auto overflow-y-auto flex flex-col gap-4 align-middle items-center">
 		<slot />
 	</div>
 </div>
