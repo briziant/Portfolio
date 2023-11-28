@@ -1,10 +1,12 @@
 <script>
 	import { base } from '$app/paths';
+	import Back from '$lib/Back.svelte';
 	import Card from '$lib/Card.svelte';
+	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 </script>
 
-<span class="uppercase text-5xl"><b>Weather Gods</b></span>
+<Back><Header>Weather Gods</Header></Back>
 <div class="grid grid-cols-2 gap-4">
 	<div class="flex flex-col gap-4">
 		<Card>
@@ -23,5 +25,5 @@
 			over.
 		</Card>
 	</div>
-	<Image src="{base}/Weather.png" title="Weather Gods" />
+	<Image src="{base}/weathergods/Cover.png" title="Weather Gods" />
 </div>

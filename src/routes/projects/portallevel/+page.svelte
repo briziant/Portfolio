@@ -1,50 +1,59 @@
 <script>
 	import { base } from '$app/paths';
+	import Back from '$lib/Back.svelte';
 	import Card from '$lib/Card.svelte';
+	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
+	import Video from '$lib/Video.svelte';
 </script>
 
-<span class="uppercase text-5xl"><b>Cinematic Portal Level Design</b></span>
-<div class="grid grid-cols-2 gap-4">
-	<div class="flex flex-col gap-4">
-		<Card>
-			This is a level design project that I completed to conceptualize
-			using in game cinematics and atmosphere to tell a story instead of
-			using dialogue. The concept for this project was to use level design
-			to tell the narrative through player interactions and real time
-			events that happen as the player explores the level.
-		</Card>
-		<Card>
-			The concept for this level was an abandoned space station that the
-			player wakes up on and as they explore they realize that there’s
-			something happening on the station with them. The player would
-			explore through the space station and through the use of triggers
-			the level would play out in front of the player.
-		</Card>
-	</div>
-	<Image src="{base}/portal/Concept.jpg" title="Concept" />
+<Back><Header>Cinematic Portal Level Design</Header></Back>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Card>
+		This is a level design project that I completed to conceptualize using
+		in game cinematics and atmosphere to tell a story instead of using
+		dialogue. The concept for this project was to use level design to tell
+		the narrative through player interactions and real time events that
+		happen as the player explores the level.
+	</Card>
+	<Image src="{base}/portal/Cover.png" title="portal 1" />
 </div>
-<Image src="{base}/portal/Test2.gif" title="Lighting Project Still 3" />
-<Image
-	src="{base}/portal/HighresScreenshot00023.png"
-	title="Lighting Project Still 4" />
-<div class="w-full flex flex-row gap-4 video">
-	<iframe
+<Card>
+	The concept for this level was an abandoned space station that the player
+	wakes up on and as they explore they realize that there’s something
+	happening on the station with them. The player would explore through the
+	space station and through the use of triggers the level would play out in
+	front of the player.
+</Card>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Image src="{base}/portal/1.jpg" title="portal 1" />
+	<Image src="{base}/portal/2.gif" title="gif" />
+</div>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Card>
+		is a picture and video of the initial concept and blockout of the level
+		design process.
+	</Card>
+	<Video
 		src="https://www.youtube.com/embed/2HZaUgIxEoU"
-		title="Level Blockout"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		allowfullscreen />
-	<iframe
+		title="Level Blockout" />
+</div>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Card>
+		The video below is a quick setup of some simple door mechanics to set up
+		the correct speed and animation of doors to give the player a proper
+		reveal of the space station.
+	</Card>
+	<Video
 		src="https://www.youtube.com/embed/0WJBZ3eEV9Q"
-		title="Door Blueprinting"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		allowfullscreen />
-	<iframe
+		title="Door Blueprinting" />
+</div>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Card>
+		The final video is to show setting up the level blueprints for the
+		basics of the cinematics that the level flow would follow.
+	</Card>
+	<Video
 		src="https://www.youtube.com/embed/WiN-ecemrY0"
-		title="Door Blueprinting"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		allowfullscreen />
+		title="Door Blueprinting" />
 </div>

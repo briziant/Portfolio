@@ -1,29 +1,41 @@
 <script>
 	import { base } from '$app/paths';
 	import Cover from '$lib/Cover.svelte';
+	import Header from '$lib/Header.svelte';
 </script>
 
-<span class="uppercase text-5xl"><b>projects</b></span>
-<div class="w-full">
+<Header>Level Design</Header>
+<div class="w-full grid gap-2">
 	<Cover
-		href="{base}/projects/portallevel"
-		src="{base}/portal_1.png"
-		title="Cinematic Portal Level Design" />
+		href="{base}/projects/hitmanstyle"
+		src="{base}/hitmanstyle/Cover.jpg"
+		title="hitman sytle (lyra mod)" />
+	<Cover
+		href="{base}/projects/interiorleveldesign"
+		src="{base}/interiorleveldesign/Cover.jpg"
+		title="Interior Level Design" />
 	<Cover
 		href="{base}/projects/modernhouse"
-		src="{base}/house/HighresScreenshot00044.png"
+		src="{base}/modernhouse/Cover.png"
 		title="Modern House project" />
 	<Cover
-		href="{base}/projects/leveldesign"
-		src="{base}/Still_2_Front.jpg"
-		title="level design" />
+		href="{base}/projects/portallevel"
+		src="{base}/portal/Cover.png"
+		title="Cinematic Portal Level Design" />
 	<Cover
-		href="{base}/projects/puzzletemple"
-		src="{base}/puzzle_temp.png"
-		title="puzzle temple" />
+		href="{base}/projects/coinparty"
+		src="{base}/coinparty/Cover.png"
+		title="Coin Party" />
+</div>
+<Header>other projects</Header>
+<Cover
+	href="{base}/projects/puzzletemple"
+	src="{base}/puzzletemple/Cover.png"
+	title="puzzle temple" />
+<div class="w-full grid grid-cols-2 gap-2 gap-x-2">
 	<Cover
 		href="{base}/projects/weathergods"
-		src="{base}/Weather.png"
+		src="{base}/weathergods/Cover.png"
 		title="weather gods" />
 	<Cover
 		href="{base}/projects/gameboydev"

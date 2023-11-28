@@ -1,10 +1,12 @@
 <script>
 	import { base } from '$app/paths';
+	import Back from '$lib/Back.svelte';
 	import Card from '$lib/Card.svelte';
+	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 </script>
 
-<span class="uppercase text-5xl"><b>Level Design</b></span>
+<Back><Header>Level Design</Header></Back>
 <div class="grid grid-cols-2 gap-4">
 	<div>
 		<Card>

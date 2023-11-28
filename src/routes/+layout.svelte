@@ -28,7 +28,7 @@
 	<title>Bryant Humphry</title>
 </svelte:head>
 <div
-	class="w-full h-screen overflow-hidden flex flex-col justify-start items-center">
+	class="w-full overflow-hidden flex flex-col justify-start items-center relative h-auto overflow-y-auto align-middle bg-pallet-background">
 	<div
 		class="w-3/4 p-8 flex flex-row justify-between items-center align-middle text-2xl">
 		<div>Bryant Humphry</div>
@@ -47,9 +47,22 @@
 			{/each}
 		</div>
 	</div>
-	<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-8" />
+	<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-4" />
 	<div
-		class=" relative w-3/4 h-auto overflow-y-auto flex flex-col gap-4 align-middle items-center">
+		class="relative w-3/4 h-auto flex flex-col gap-4 align-middle items-center pb-4">
 		<slot />
+	</div>
+	<div
+		class="flex gap-4 justify-center items-center w-full p-8 bg-slate-950 text-center text-pallet-background">
+		<div class="flex flex-col">
+			<span>Bryant Humphry</span>
+			<span>humphrybryant@gmail.com</span>
+		</div>
+		<a
+			href="https://www.linkedin.com/in/bryant-humphry-594341136"
+			target="_blank"
+			class="uppercase transition ease-in-out duration-150 hover:text-pallet-accent">
+			<IconBrandLinkedin class="w-8 h-auto" />
+		</a>
 	</div>
 </div>

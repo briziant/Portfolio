@@ -1,18 +1,20 @@
 <script>
 	import { base } from '$app/paths';
+	import Back from '$lib/Back.svelte';
 	import Card from '$lib/Card.svelte';
+	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 	import { IconLink } from '@tabler/icons-svelte';
 </script>
 
-<span class="uppercase text-5xl"><b>Gameboy Development</b></span>
+<Back><Header>Gameboy Development</Header></Back>
 <a
 	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
 	href="https://briziant.itch.io/">
 	Gameboy projects
 	<IconLink />
 </a>
-<div class="grid grid-cols-2 gap-4">
+<div class="grid xl:grid-cols-2 max-lg:grid-rows-2 gap-4">
 	<div>
 		<Card>
 			Below is a collection of various Gameboy games that I've worked on.

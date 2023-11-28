@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	@apply bg-pallet-background text-pallet-text;
+	@apply bg-slate-950 text-pallet-text;
 }
 
 .link {
