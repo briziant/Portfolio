@@ -9,6 +9,12 @@
 </script>
 
 <Back><Header>Gameboy Development</Header></Back>
+<a
+	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
+	href="https://briziant.itch.io/">
+	Gameboy projects
+	<IconLink />
+</a>
 <div class="grid xl:grid-cols-2 max-lg:grid-rows-2 gap-4">
 	<div>
 		<Card>
@@ -29,19 +35,19 @@
 	<Cover
 		href="https://briziant.itch.io/a-long-journey"
 		target="_blank"
-		src="/gameboy/3V7IZS.png"
+		src="{base}/gameboy/3V7IZS.png"
 		title="A long journey"
 		maxHeight={false} />
 	<Cover
 		href="https://briziant.itch.io/friend-quest"
 		target="_blank"
-		src="/gameboy/BwqAZS.png"
+		src="{base}/gameboy/BwqAZS.png"
 		title="Friend Quest"
 		maxHeight={false} />
 	<Cover
 		href="https://briziant.itch.io/dad-joke-simulator-the-movie-the-game"
 		target="_blank"
-		src="/gameboy/V3cZjm.png"
+		src="{base}/gameboy/V3cZjm.png"
 		title="Dad Joke Simulator"
 		maxHeight={false} />
 </div>
