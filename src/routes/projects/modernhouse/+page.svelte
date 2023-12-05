@@ -29,7 +29,7 @@
 	<Card>
 		The project was an exercise in modern design, feng shui, as well as real
 		world implementations to try to build a house that would be interesting
-		to conceptualize a futuristic design.
+		to conceptualize a futuristic yet modern design.
 	</Card>
 	<Image src="{base}/modernhouse/2.png" title="Modern House 2" />
 </div>
