@@ -8,7 +8,7 @@
 <div class="w-full grid gap-2">
 	<Cover
 		href="{base}/projects/hitmanstyle"
-		src="{base}/hitmanstyle/Cover.jpg"
+		src="{base}/hitmanstyle/Cover.png"
 		title="hitman sytle (lyra mod)" />
 	<Cover
 		href="{base}/projects/interiorleveldesign"
@@ -28,17 +28,19 @@
 		title="Coin Party" />
 </div>
 <Header>other projects</Header>
-<Cover
-	href="{base}/projects/puzzletemple"
-	src="{base}/puzzletemple/Cover.png"
-	title="puzzle temple" />
-<div class="w-full grid grid-cols-2 gap-2 gap-x-2">
+<div class="w-full grid gap-2">
 	<Cover
-		href="{base}/projects/weathergods"
-		src="{base}/weathergods/Cover.png"
-		title="weather gods" />
-	<Cover
-		href="{base}/projects/gameboydev"
-		src="{base}/gameboy/3V7IZS.png"
-		title="Gameboy Development" />
+		href="{base}/projects/puzzletemple"
+		src="{base}/puzzletemple/Cover.png"
+		title="puzzle temple" />
+	<div class="w-full grid grid-cols-2 gap-2 gap-x-2">
+		<Cover
+			href="{base}/projects/weathergods"
+			src="{base}/weathergods/Cover.png"
+			title="weather gods" />
+		<Cover
+			href="{base}/projects/gameboydev"
+			src="{base}/gameboy/3V7IZS.png"
+			title="Gameboy Development" />
+	</div>
 </div>
