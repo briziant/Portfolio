@@ -2,10 +2,11 @@
 	import { base } from '$app/paths';
 	import Back from '$lib/Back.svelte';
 	import Card from '$lib/Card.svelte';
+	import Divider from '$lib/Divider.svelte';
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
-    import Subheader from '$lib/Subheader.svelte';
-    import Subtitle from '$lib/Subheader.svelte';
+	import Subheader from '$lib/Subheader.svelte';
+	import Subtitle from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>hitman sytle (lyra mod)</Header></Back>
@@ -24,7 +25,7 @@
 	</Card>
 	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
 </div>
-<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-4" />
+<Divider />
 <Subheader>Test</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
@@ -37,23 +38,30 @@
 </div>
 <Card>
 	The team also decided to make the level multi-layered so that the player had
-	different options for each lane as well. With different difficulties for each of the
-	lanes they branched off of. If the player felt they got in too deep on one lane
-	they could switch to a different lane, or if they didn’t feel challenged
-	enough they could take an alley and spike up the difficulty for themself.
+	different options for each lane as well. With different difficulties for
+	each of the lanes they branched off of. If the player felt they got in too
+	deep on one lane they could switch to a different lane, or if they didn’t
+	feel challenged enough they could take an alley and spike up the difficulty
+	for themself.
 </Card>
 <div class="w-full grid grid-cols-2 gap-4">
-<Card>Here you can see how the map was changed and how each of the lanes was reduced in size to make each lane feel and play more confined.</Card>
-<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" /></div>
+	<Card
+		>Here you can see how the map was changed and how each of the lanes was
+		reduced in size to make each lane feel and play more confined.</Card>
+	<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" />
+</div>
 <div class="w-full grid grid-cols-2 gap-4">
-<Card>This is a final blockout of the street level part of the map. The enemies and cameras were added in to give playtesters the ability to sneak through the level and test enemy and camera placements.</Card>
-<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" /></div>
-
+	<Card
+		>This is a final blockout of the street level part of the map. The
+		enemies and cameras were added in to give playtesters the ability to
+		sneak through the level and test enemy and camera placements.</Card>
+	<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" />
+</div>
 
 <Card>
 	Below are the various phases that the level went through during the level
 	design process. The level was blocked out in Lyra so that the development
 	team could jump in quickly and give feedback for the next iteration of the
-	level. This allowed the playtesters to give valueable feedback and the level was
-	changed and shrunk through this interactive process.
+	level. This allowed the playtesters to give valueable feedback and the level
+	was changed and shrunk through this interactive process.
 </Card>

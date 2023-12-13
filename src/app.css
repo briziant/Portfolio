@@ -14,6 +14,10 @@ body {
 	@apply bg-gradient-to-br from-pallet-accent via-pallet-primary to-pallet-secondary;
 }
 
+.bg-accent-rpg {
+	@apply bg-gradient-to-br from-rpg-secondary to-rpg-primary;
+}
+
 .card > p {
 	@apply p-8 shadow-md shadow-pallet-text/30 text-pallet-background rounded-3xl bg-accent text-2xl;
 }
