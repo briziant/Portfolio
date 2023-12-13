@@ -28,7 +28,7 @@
 	<title>Bryant Humphry</title>
 </svelte:head>
 <div
-	class="w-full overflow-hidden flex flex-col justify-start items-center relative h-auto overflow-y-auto align-middle bg-slate-900">
+	class="w-full overflow-hidden flex flex-col justify-start items-center relative h-auto overflow-y-auto align-middle bg-slate-950 text-pallet-background">
 	<div
 		class="w-3/4 p-8 flex flex-row justify-between items-center align-middle text-2xl">
 		<div>Bryant Humphry</div>
