@@ -7,6 +7,10 @@
 </script>
 
 <Back><Header>hitman sytle (lyra mod)</Header></Back>
+<span>Development Time: 10 weeks</span>
+<span>Tools Used: Unreal Engine, Lyra game kit</span>
+<span>Role on Project: Level Design</span>
+<span>Date of Development: November 2022</span>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		This was an untitled project that I worked on for a game modification
@@ -28,22 +32,24 @@
 	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />
 </div>
 <Card>
-	We also decided to make the level multi-layered so that the player had
-	different options for each lane as well. With different difficulties for the
-	lanes they branched off of. If players felt they got in too deep on one lane
+	The team also decided to make the level multi-layered so that the player had
+	different options for each lane as well. With different difficulties for each of the
+	lanes they branched off of. If the player felt they got in too deep on one lane
 	they could switch to a different lane, or if they didn’t feel challenged
 	enough they could take an alley and spike up the difficulty for themself.
 </Card>
-<Image src="{base}/hitmanstyle/2.png" title="hitman style 2" />
+<div class="w-full grid grid-cols-2 gap-4">
+<Card>Here you can see how the map was changed and how each of the lanes was reduced in size to make each lane feel and play more confined.</Card>
+<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" /></div>
+<div class="w-full grid grid-cols-2 gap-4">
+<Card>This is a final blockout of the street level part of the map. The enemies and cameras were added in to give playtesters the ability to sneak through the level and test enemy and camera placements.</Card>
+<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" /></div>
+
+
 <Card>
 	Below are the various phases that the level went through during the level
 	design process. The level was blocked out in Lyra so that the development
 	team could jump in quickly and give feedback for the next iteration of the
-	level. This allowed the playtesters to give feedback and the level was
+	level. This allowed the playtesters to give valueable feedback and the level was
 	changed and shrunk through this interactive process.
 </Card>
-<Image src="{base}/hitmanstyle/3.png" title="hitman style 3" />
-<Card></Card>
-<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" />
-<Card></Card>
-<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" />

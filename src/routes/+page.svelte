@@ -11,14 +11,6 @@
 		src="{base}/hitmanstyle/Cover.png"
 		title="hitman sytle (lyra mod)" />
 	<Cover
-		href="{base}/projects/interiorleveldesign"
-		src="{base}/interiorleveldesign/Cover.jpg"
-		title="Interior Level Design" />
-	<Cover
-		href="{base}/projects/modernhouse"
-		src="{base}/modernhouse/Cover.png"
-		title="Modern House project" />
-	<Cover
 		href="{base}/projects/portallevel"
 		src="{base}/portal/Cover.png"
 		title="Cinematic Portal Level Design" />
@@ -26,6 +18,17 @@
 		href="{base}/projects/coinparty"
 		src="{base}/coinparty/Cover.png"
 		title="Coin Party" />
+	<Cover
+		href="{base}/projects/modernhouse"
+		src="{base}/modernhouse/Cover.png"
+		title="Modern House project" />
+	<Cover
+		href="{base}/projects/interiorleveldesign"
+		src="{base}/interiorleveldesign/Cover.jpg"
+		title="Interior Level Design" />
+
+
+
 </div>
 <Header>other projects</Header>
 <div class="w-full grid gap-2">
