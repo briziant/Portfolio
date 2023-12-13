@@ -4,6 +4,8 @@
 	import Card from '$lib/Card.svelte';
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
+    import Subheader from '$lib/Subheader.svelte';
+    import Subtitle from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>hitman sytle (lyra mod)</Header></Back>
@@ -22,6 +24,8 @@
 	</Card>
 	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
 </div>
+<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-4" />
+<Subheader>Test</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		Each path offered the player a different option on how to play. The left
