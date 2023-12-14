@@ -21,7 +21,7 @@ export default {
       },
       width: {
         'video': '23rem'
-      }
+      },
     },
   },
   plugins: [],

@@ -11,11 +11,15 @@ body {
 }
 
 .bg-accent {
-	@apply bg-gradient-to-br from-pallet-accent via-pallet-primary to-pallet-secondary;
+	@apply bg-gradient-to-bl  from-emerald-700 via-cyan-600 to-slate-800;
 }
 
 .bg-accent-rpg {
 	@apply bg-gradient-to-br from-rpg-secondary to-rpg-primary;
+}
+
+.bg-pal {
+	background: linear-gradient(-20deg, #ffffff00, #054d5b), linear-gradient(45deg, #037B7B, #037b7b 80%);
 }
 
 .card > p {
