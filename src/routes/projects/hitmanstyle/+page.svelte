@@ -37,7 +37,7 @@
 		Each path offered the player a different option on how to play. The left
 		lane was a high visibility lane that offered more rewards and ammunition
 		if the player chose to explore that path, while the middle lane was
-		easier but offered less rewards and opportunities to find items.
+		easier but offered less rewards and opportunities to find items. <br>
 	</Card>
 	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />
 </div>
