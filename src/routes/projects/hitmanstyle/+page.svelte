@@ -9,7 +9,7 @@
 	import Subtitle from '$lib/Subheader.svelte';
 </script>
 
-<Back><Header>hitman sytle (lyra mod)</Header></Back>
+<Back><Header>hitman lyra mod</Header></Back>
 <span>Development Time: 10 weeks</span>
 <span>Tools Used: Unreal Engine, Lyra game kit</span>
 <span>Role on Project: Level Design</span>
@@ -26,7 +26,12 @@
 	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
 </div>
 <Divider />
-<Subheader>Test</Subheader>
+<Subheader>Pre-Production</Subheader>
+<Card>
+
+</Card>
+<Divider />
+<Subheader>Initial Design</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		Each path offered the player a different option on how to play. The left
@@ -36,6 +41,8 @@
 	</Card>
 	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />
 </div>
+<Divider />
+<Subheader>Blockout</Subheader>
 <Card>
 	The team also decided to make the level multi-layered so that the player had
 	different options for each lane as well. With different difficulties for
@@ -45,8 +52,8 @@
 	for themself.
 </Card>
 <div class="w-full grid grid-cols-2 gap-4">
-	<Card
-		>Here you can see how the map was changed and how each of the lanes was
+	<Card>
+		Here you can see how the map was changed and how each of the lanes was
 		reduced in size to make each lane feel and play more confined.</Card>
 	<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" />
 </div>
@@ -57,11 +64,17 @@
 		sneak through the level and test enemy and camera placements.</Card>
 	<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" />
 </div>
-
+<Divider />
+<Subheader>Gameplay Elements</Subheader>
+<div class="w-full grid grid-cols-2 gap-4">
 <Card>
-	Below are the various phases that the level went through during the level
-	design process. The level was blocked out in Lyra so that the development
-	team could jump in quickly and give feedback for the next iteration of the
-	level. This allowed the playtesters to give valueable feedback and the level
-	was changed and shrunk through this interactive process.
+
 </Card>
+<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
+</div>
+<div class="w-full grid grid-cols-2 gap-4">
+	<Card>
+
+	</Card>
+<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
+</div>

@@ -26,4 +26,9 @@
 		</Card>
 	</div>
 	<Image src="{base}/weathergods/Cover.png" title="Weather Gods" />
+	<Image src="{base}/weathergods/1.gif" title="Weather Gods Gif1" />
+	<Image src="{base}/weathergods/2.gif" title="Weather Gods Gif1" />
+	<Image src="{base}/weathergods/3.gif" title="Weather Gods Gif1" />
+	<Image src="{base}/weathergods/4.gif" title="Weather Gods Gif1" />
+	<Image src="{base}/weathergods/5.gif" title="Weather Gods Gif1" />
 </div>
