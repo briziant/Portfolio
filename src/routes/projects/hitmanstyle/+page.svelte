@@ -27,9 +27,7 @@
 </div>
 <Divider />
 <Subheader>Pre-Production</Subheader>
-<Card>
-
-</Card>
+<Card></Card>
 <Divider />
 <Subheader>Initial Design</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
@@ -67,14 +65,10 @@
 <Divider />
 <Subheader>Gameplay Elements</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-<Card>
-
-</Card>
-<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
+	<Card></Card>
+	<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
 </div>
 <div class="w-full grid grid-cols-2 gap-4">
-	<Card>
-
-	</Card>
-<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
+	<Card></Card>
+	<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
 </div>
