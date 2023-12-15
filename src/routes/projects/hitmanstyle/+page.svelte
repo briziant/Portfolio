@@ -14,7 +14,7 @@
 <span>Tools Used: Unreal Engine, Lyra game kit</span>
 <span>Role on Project: Level Design</span>
 <span>Date of Development: November 2022</span>
-<div class="w-full grid grid-cols-2 gap-4">
+<div class="w-full grid !sm:grid-rows-2 sm:grid-cols-2 gap-4">
 	<Card>
 		This was an untitled project that I worked on for a game modification
 		class while at DePaul. The idea was to create a stealth based game from
