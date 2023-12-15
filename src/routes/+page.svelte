@@ -9,7 +9,7 @@
 	<Cover
 		href="{base}/projects/hitmanstyle"
 		src="{base}/hitmanstyle/Cover.png"
-		title="hitman sytle (lyra mod)" />
+		title="hitman lyra mod" />
 	<Cover
 		href="{base}/projects/portallevel"
 		src="{base}/portal/Cover.png"
