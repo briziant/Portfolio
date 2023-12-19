@@ -30,7 +30,7 @@
 	</div>
 	<Image src="{base}/gameboy/Cover.png" title="gameboy" />
 </div>
-<Header>Links</Header>
+<Header>Links to play each games</Header>
 <div class="grid grid-cols-3 gap-4">
 	<Cover
 		href="https://briziant.itch.io/a-long-journey"

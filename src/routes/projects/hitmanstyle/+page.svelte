@@ -15,29 +15,31 @@
 <span>Role on Project: Level Design</span>
 <span>Date of Development: November 2022</span>
 <div class="w-full grid !sm:grid-rows-2 sm:grid-cols-2 gap-4">
+	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
+</div>
+<Divider />
+<Subheader>Pre-Production</Subheader>
+<div class="w-full grid grid-cols-2 gap-4">
+<Card>The concept for this game was to create a stealth game using the Lyra game kit created by epic. The initial concept was to make a game that had strong stealth elements and limited resources. Games like I Am Alive, Last of Us, and Splinter Cell.</Card>
+<Image src="{base}/hitmanstyle/top.png" title="hitman style top" /></div>
+<Divider />
+<Subheader>Initial Design</Subheader>
+<div class="w-full grid grid-cols-2 gap-4">
 	<Card>
-		This was an untitled project that I worked on for a game modification
-		class while at DePaul. The idea was to create a stealth based game from
+		This was a project that I worked on for a game modification
+		class while at DePaul University. The idea was to create a stealth based game from
 		the Lyra game pack created by Epic. I worked within the level design
 		team and designed the concept of the three lane approach to create an
 		easy, medium, hard path for the player to choose how they would like to
 		complete the level.
 	</Card>
-	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
-</div>
-<Divider />
-<Subheader>Pre-Production</Subheader>
-<Card></Card>
-<Divider />
-<Subheader>Initial Design</Subheader>
-<div class="w-full grid grid-cols-2 gap-4">
+	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />	
 	<Card>
 		Each path offered the player a different option on how to play. The left
 		lane was a high visibility lane that offered more rewards and ammunition
 		if the player chose to explore that path, while the middle lane was
 		easier but offered less rewards and opportunities to find items. <br>
 	</Card>
-	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />
 </div>
 <Divider />
 <Subheader>Blockout</Subheader>
@@ -65,10 +67,19 @@
 <Divider />
 <Subheader>Gameplay Elements</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-	<Card></Card>
+	<Card>
+		
+	</Card>
 	<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
 </div>
 <div class="w-full grid grid-cols-2 gap-4">
-	<Card></Card>
+	<Card>
+
+	</Card>
 	<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
 </div>
+<Divider />
+<Subheader>Post-Mortem</Subheader>
+<Card>
+
+</Card>
