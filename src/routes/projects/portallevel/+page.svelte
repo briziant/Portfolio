@@ -5,9 +5,18 @@
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 	import Video from '$lib/Video.svelte';
+	import Divider from '$lib/Divider.svelte';
+	import Subheader from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>Cinematic Portal Level Design</Header></Back>
+<span>Development Time: 2 weeks</span>
+<span>Tools Used: Unreal Engine</span>
+<span>Role on Project: Level Design, solo development</span>
+<span>Date of Development: August 2023</span>
+
+<Divider />
+<Subheader>Initial Design</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		This is a level design project that I completed to conceptualize using

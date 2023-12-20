@@ -6,7 +6,6 @@
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 	import Subheader from '$lib/Subheader.svelte';
-	import Subtitle from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>hitman lyra mod</Header></Back>
@@ -83,5 +82,5 @@
 <Divider />
 <Subheader>Post-Mortem</Subheader>
 <Card>
-Player goal, how level was executed in end.
+A huge take away from the project for me was how much mission and objective design can affect and the level can change from the inital design to a finished product. I also noticed how players in the play test would pick up on certain mechanics built in and then find creative solutions to get through obsticles/puzzles which also affected the final design.<br>Over all I think this project taught me how much how much of an iterative process level development really was. Even after the block out phase was over and it was passed along to another team for testing. It still had the ability to come back with requested changes. Which then gave me the opportunity to create creative solutions for the players ingenuity.
 </Card>
