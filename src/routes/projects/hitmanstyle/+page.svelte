@@ -20,7 +20,7 @@
 <Divider />
 <Subheader>Pre-Production</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-<Card>The concept for this game was to create a stealth game using the Lyra game kit created by epic. The initial concept was to make a game that had strong stealth elements and limited resources. Games like I Am Alive, Last of Us, and Splinter Cell.</Card>
+<Card>The concept for this game was to create a stealth game using the Lyra game kit created by Epic. The initial design was a game that had strong stealth elements and limited resources forcing the player to make stratigic meaningful gameplay decisions. Games like I Am Alive, Last of Us, and Splinter Cell.</Card>
 <Image src="{base}/hitmanstyle/top.png" title="hitman style top" /></div>
 <Divider />
 <Subheader>Initial Design</Subheader>
@@ -68,18 +68,20 @@
 <Subheader>Gameplay Elements</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
-		
+		Enemies were able to change their status based on whether or not they decided to sneak through the level or run through gun blazing. The player was given limited ammunition to encourage them to be more stealthy. <br>
+		Pictured right: is the enemy status system. The player is able to alert enemies if they make too much noise.
 	</Card>
 	<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
 </div>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
-
+		The enviroment was designed to complimented the abilities the player had available to them. Enemies were set at specific vantage points to encourage more stealth from the player. <br>
+		Pictured right: The player used their cloaking ability to sneak past one of the stationed enemies.
 	</Card>
 	<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
 </div>
 <Divider />
 <Subheader>Post-Mortem</Subheader>
 <Card>
-
+Player goal, how level was executed in end.
 </Card>
