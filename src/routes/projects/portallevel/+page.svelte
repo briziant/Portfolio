@@ -27,6 +27,8 @@
 	</Card>
 	<Image src="{base}/portal/Cover.png" title="portal 1" />
 </div>
+<Divider />
+<Subheader>Blockout</Subheader>
 <Card>
 	The concept for this level was an abandoned space station that the player
 	wakes up on and as they explore they realize that there’s something
@@ -38,6 +40,8 @@
 	<Image src="{base}/portal/1.jpg" title="portal 1" />
 	<Image src="{base}/portal/2.gif" title="gif" />
 </div>
+<Divider />
+<Subheader>Design Elements</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		is a picture and video of the initial concept and blockout of the level
@@ -66,3 +70,9 @@
 		src="https://www.youtube.com/embed/WiN-ecemrY0"
 		title="Door Blueprinting" />
 </div>
+<Divider />
+<Subheader>Post-Mortem</Subheader>
+<Card>
+	The final video is to show setting up the level blueprints for the
+	basics of the cinematics that the level flow would follow.
+</Card>

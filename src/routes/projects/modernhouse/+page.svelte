@@ -4,9 +4,17 @@
 	import Card from '$lib/Card.svelte';
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
+	import Divider from '$lib/Divider.svelte';
+	import Subheader from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>Modern House</Header></Back>
+<span>Development Time: 2 weeks</span>
+<span>Tools Used: Unreal Engine</span>
+<span>Role on Project: Level Design, solo development</span>
+<span>Date of Development: August 2023</span>
+<Divider />
+<Subheader>Conceptual Design</Subheader>
 <div class="grid grid-cols-2 gap-4">
 	<Card>
 		The concept for this project was to create a modern house using only a
@@ -16,6 +24,8 @@
 	</Card>
 	<Image src="{base}/modernhouse/Cover.png" title="Modern House" />
 </div>
+<Divider />
+<Subheader>Initial Design</Subheader>
 <Card>
 	The design of the house was modeled so that the house would sit in the sun
 	line. Using this I strategically placed the bedroom and the kitchen in the
@@ -25,6 +35,8 @@
 	and into the evening.
 </Card>
 <Image src="{base}/modernhouse/1.png" title="Modern House" />
+<Divider />
+<Subheader>Design Choices</Subheader>
 <div class="w-full grid grid-cols-[1fr_1.25fr] gap-4">
 	<Card>
 		The project was an exercise in modern design, feng shui, as well as real

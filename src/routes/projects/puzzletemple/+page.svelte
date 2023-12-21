@@ -5,9 +5,15 @@
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 	import { IconLink } from '@tabler/icons-svelte';
+	import Divider from '$lib/Divider.svelte';
+	import Subheader from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>Puzzle Temple</Header></Back>
+<span>Development Time: 2 weeks</span>
+<span>Tools Used: Unreal Engine</span>
+<span>Role on Project: Level Design, solo development</span>
+<span>Date of Development: August 2023</span>
 <a
 	class="link uppercase transition ease-in-out duration-150 hover:text-pallet-accent inline-flex"
 	href="https://briziant.itch.io/puzzle-temple-prototype-v2">
