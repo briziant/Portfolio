@@ -13,32 +13,39 @@
 <span>Tools Used: Unreal Engine, Lyra game kit</span>
 <span>Role on Project: Level Design</span>
 <span>Date of Development: November 2022</span>
-<div class="w-full grid !sm:grid-rows-2 sm:grid-cols-2 gap-4">
 	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
-</div>
 <Divider />
 <Subheader>Pre-Production</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-<Card>The concept for this game was to create a stealth game using the Lyra game kit created by Epic. The initial design was a game that had strong stealth elements and limited resources forcing the player to make stratigic meaningful gameplay decisions. Games like I Am Alive, Last of Us, and Splinter Cell.</Card>
-<Image src="{base}/hitmanstyle/top.png" title="hitman style top" /></div>
+	<Card
+		>The concept for this game was to create a stealth game using the Lyra
+		game kit created by Epic. The initial design was a game that had strong
+		stealth elements and limited resources forcing the player to make
+		stratigic meaningful gameplay decisions. Games like I Am Alive, Last of
+		Us, and Splinter Cell.</Card>
+	<Image src="{base}/hitmanstyle/top.png" title="hitman style top" />
+</div>
 <Divider />
 <Subheader>Initial Design</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-	<Card>
-		This was a project that I worked on for a game modification
-		class while at DePaul University. The idea was to create a stealth based game from
-		the Lyra game pack created by Epic. I worked within the level design
-		team and designed the concept of the three lane approach to create an
-		easy, medium, hard path for the player to choose how they would like to
-		complete the level.
-	</Card>
-	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />	
-	<Card>
-		Each path offered the player a different option on how to play. The left
-		lane was a high visibility lane that offered more rewards and ammunition
-		if the player chose to explore that path, while the middle lane was
-		easier but offered less rewards and opportunities to find items. <br>
-	</Card>
+	<div>
+		<Card>
+			This was a project that I worked on for a game modification class
+			while at DePaul University. The idea was to create a stealth based
+			game from the Lyra game pack created by Epic. I worked within the
+			level design team and designed the concept of the three lane
+			approach to create an easy, medium, hard path for the player to
+			choose how they would like to complete the level.
+		</Card>
+		<Card>
+			Each path offered the player a different option on how to play. The
+			left lane was a high visibility lane that offered more rewards and
+			ammunition if the player chose to explore that path, while the
+			middle lane was easier but offered less rewards and opportunities to
+			find items. <br />
+		</Card>
+	</div>
+	<Image src="{base}/hitmanstyle/1.jpg" title="hitman style 1" />
 </div>
 <Divider />
 <Subheader>Blockout</Subheader>
@@ -67,20 +74,36 @@
 <Subheader>Gameplay Elements</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
-		Enemies were able to change their status based on whether or not they decided to sneak through the level or run through gun blazing. The player was given limited ammunition to encourage them to be more stealthy. <br>
-		Pictured right: is the enemy status system. The player is able to alert enemies if they make too much noise.
+		Enemies were able to change their status based on whether or not they
+		decided to sneak through the level or run through gun blazing. The
+		player was given limited ammunition to encourage them to be more
+		stealthy. <br />
+		Pictured right: is the enemy status system. The player is able to alert enemies
+		if they make too much noise.
 	</Card>
 	<Image src="{base}/hitmanstyle/1.gif" title="hitman style 6" />
 </div>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
-		The enviroment was designed to complimented the abilities the player had available to them. Enemies were set at specific vantage points to encourage more stealth from the player. <br>
-		Pictured right: The player used their cloaking ability to sneak past one of the stationed enemies.
+		The enviroment was designed to complimented the abilities the player had
+		available to them. Enemies were set at specific vantage points to
+		encourage more stealth from the player. <br />
+		Pictured right: The player used their cloaking ability to sneak past one
+		of the stationed enemies.
 	</Card>
 	<Image src="{base}/hitmanstyle/2.gif" title="hitman style 7" />
 </div>
 <Divider />
 <Subheader>Post-Mortem</Subheader>
 <Card>
-A huge take away from the project for me was how much mission and objective design can affect and the level can change from the inital design to a finished product. I also noticed how players in the play test would pick up on certain mechanics built in and then find creative solutions to get through obsticles/puzzles which also affected the final design.<br>Over all I think this project taught me how much how much of an iterative process level development really was. Even after the block out phase was over and it was passed along to another team for testing. It still had the ability to come back with requested changes. Which then gave me the opportunity to create creative solutions for the players ingenuity.
+	A huge take away from the project for me was how much mission and objective
+	design can affect and the level can change from the inital design to a
+	finished product. I also noticed how players in the play test would pick up
+	on certain mechanics built in and then find creative solutions to get
+	through obsticles/puzzles which also affected the final design.<br />Over
+	all I think this project taught me how much how much of an iterative process
+	level development really was. Even after the block out phase was over and it
+	was passed along to another team for testing. It still had the ability to
+	come back with requested changes. Which then gave me the opportunity to
+	create creative solutions for the players ingenuity.
 </Card>
