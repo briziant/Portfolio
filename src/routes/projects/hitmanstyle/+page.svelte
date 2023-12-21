@@ -28,7 +28,7 @@
 <Divider />
 <Subheader>Initial Design</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
-	<div>
+	<div class="flex flex-col gap-4">
 		<Card>
 			This was a project that I worked on for a game modification class
 			while at DePaul University. The idea was to create a stealth based
