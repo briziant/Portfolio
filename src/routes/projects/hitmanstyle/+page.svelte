@@ -1,11 +1,11 @@
 <script>
-	import { base } from '$app/paths';
-	import Back from '$lib/Back.svelte';
-	import Card from '$lib/Card.svelte';
-	import Divider from '$lib/Divider.svelte';
-	import Header from '$lib/Header.svelte';
-	import Image from '$lib/Image.svelte';
-	import Subheader from '$lib/Subheader.svelte';
+	import { base } from "$app/paths";
+	import Back from "$lib/Back.svelte";
+	import Card from "$lib/Card.svelte";
+	import Divider from "$lib/Divider.svelte";
+	import Header from "$lib/Header.svelte";
+	import Image from "$lib/Image.svelte";
+	import Subheader from "$lib/Subheader.svelte";
 </script>
 
 <Back><Header>hitman lyra mod</Header></Back>
@@ -13,7 +13,7 @@
 <span>Tools Used: Unreal Engine, Lyra game kit</span>
 <span>Role on Project: Level Design</span>
 <span>Date of Development: November 2022</span>
-	<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
+<Image src="{base}/hitmanstyle/Cover.png" title="hitman style 1" />
 <Divider />
 <Subheader>Pre-Production</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
@@ -22,7 +22,8 @@
 		game kit created by Epic. The initial design was a game that had strong
 		stealth elements and limited resources forcing the player to make
 		stratigic meaningful gameplay decisions. Games like I Am Alive, Last of
-		Us, and Splinter Cell.</Card>
+		Us, and Splinter Cell.</Card
+	>
 	<Image src="{base}/hitmanstyle/top.png" title="hitman style top" />
 </div>
 <Divider />
@@ -60,14 +61,16 @@
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		Here you can see how the map was changed and how each of the lanes was
-		reduced in size to make each lane feel and play more confined.</Card>
+		reduced in size to make each lane feel and play more confined.</Card
+	>
 	<Image src="{base}/hitmanstyle/4.png" title="hitman style 4" />
 </div>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card
 		>This is a final blockout of the street level part of the map. The
 		enemies and cameras were added in to give playtesters the ability to
-		sneak through the level and test enemy and camera placements.</Card>
+		sneak through the level and test enemy and camera placements.</Card
+	>
 	<Image src="{base}/hitmanstyle/5.png" title="hitman style 5" />
 </div>
 <Divider />
@@ -97,13 +100,16 @@
 <Subheader>Post-Mortem</Subheader>
 <Card>
 	A huge take away from the project for me was how much mission and objective
-	design can affect and the level can change from the inital design to a
-	finished product. I also noticed how players in the play test would pick up
-	on certain mechanics built in and then find creative solutions to get
-	through obsticles/puzzles which also affected the final design.<br />Over
-	all I think this project taught me how much how much of an iterative process
-	level development really was. Even after the block out phase was over and it
-	was passed along to another team for testing. It still had the ability to
-	come back with requested changes. Which then gave me the opportunity to
-	create creative solutions for the players ingenuity.
+	design can become an interitive process. The level can change from the
+	inital design to a finished product drastically from team and player
+	feedback. I noticed how players in the play test would pick up on certain
+	mechanics built in or ignore other designs. Then find creative solutions to
+	get through obsticles/puzzles which also affected the final design of the
+	level.<br />
+	Over all I think this project taught me how much of an iterative process
+	level development really was. Player's ingenuity gave me the opportunity to
+	create new solutions for the gaps that they would find in the tested design.
+	Taking player feedback and going back to the drawing board with the data we
+	received we were able to focus on routing the player and control their
+	options, this was key in the iterative process.
 </Card>
