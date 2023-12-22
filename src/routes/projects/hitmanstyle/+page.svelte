@@ -106,7 +106,7 @@
 	mechanics built in or ignore other designs. Then find creative solutions to
 	get through obsticles/puzzles which also affected the final design of the
 	level.<br />
-	Over all I think this project taught me how much of an iterative process
+	Overall I think this project taught me how much of an iterative process
 	level development really was. Player's ingenuity gave me the opportunity to
 	create new solutions for the gaps that they would find in the tested design.
 	Taking player feedback and going back to the drawing board with the data we

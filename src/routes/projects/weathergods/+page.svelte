@@ -1,11 +1,11 @@
 <script>
-	import { base } from '$app/paths';
-	import Back from '$lib/Back.svelte';
-	import Card from '$lib/Card.svelte';
-	import Header from '$lib/Header.svelte';
-	import Image from '$lib/Image.svelte';
-	import Divider from '$lib/Divider.svelte';
-	import Subheader from '$lib/Subheader.svelte';
+	import { base } from "$app/paths";
+	import Back from "$lib/Back.svelte";
+	import Card from "$lib/Card.svelte";
+	import Header from "$lib/Header.svelte";
+	import Image from "$lib/Image.svelte";
+	import Divider from "$lib/Divider.svelte";
+	import Subheader from "$lib/Subheader.svelte";
 </script>
 
 <Back><Header>Weather Gods</Header></Back>
@@ -13,6 +13,8 @@
 <span>Tools Used: Unreal Engine</span>
 <span>Role on Project: Level Design, solo development</span>
 <span>Date of Development: August 2023</span>
+<Divider />
+<Subheader>Introduction</Subheader>
 <div class="grid grid-cols-2 gap-4">
 	<div class="flex flex-col gap-4">
 		<Card>
@@ -30,11 +32,46 @@
 			of the island. Once 100 villagers escaped the island the game was
 			over.
 		</Card>
-	</div>
-	<Image src="{base}/weathergods/Cover.png" title="Weather Gods" />
-	<Image src="{base}/weathergods/1.gif" title="Weather Gods Gif1" />
-	<Image src="{base}/weathergods/2.gif" title="Weather Gods Gif1" />
-	<Image src="{base}/weathergods/3.gif" title="Weather Gods Gif1" />
-	<Image src="{base}/weathergods/4.gif" title="Weather Gods Gif1" />
-	<Image src="{base}/weathergods/5.gif" title="Weather Gods Gif1" />
+		</div>
+		<Image src="{base}/weathergods/Cover.png" title="Weather Gods" />
+	
+</div>
+<Divider />
+<Subheader>Game Mechanics</Subheader>
+<div class="grid grid-cols-2 gap-4">
+		<Card>
+			Weather Gods was a smaller team project that was completed and
+			shipped in early 2018 for a game development class at DePaul
+			University. Responsible for in game art assets and over all game
+			design through the project.
+		</Card>
+		<Image src="{base}/weathergods/1.gif" title="Weather Gods Gif1" />
+		<Card>
+			Weather Gods was a smaller team project that was completed and
+			shipped in early 2018 for a game development class at DePaul
+			University. Responsible for in game art assets and over all game
+			design through the project.
+		</Card>
+		<Image src="{base}/weathergods/2.gif" title="Weather Gods Gif2" />
+		<Card>
+			Weather Gods was a smaller team project that was completed and
+			shipped in early 2018 for a game development class at DePaul
+			University. Responsible for in game art assets and over all game
+			design through the project.
+		</Card>
+		<Image src="{base}/weathergods/3.gif" title="Weather Gods Gif3" />
+		<Card>
+			Weather Gods was a smaller team project that was completed and
+			shipped in early 2018 for a game development class at DePaul
+			University. Responsible for in game art assets and over all game
+			design through the project.
+		</Card>
+		<Image src="{base}/weathergods/4.gif" title="Weather Gods Gif4" />
+		<Card>
+			Weather Gods was a smaller team project that was completed and
+			shipped in early 2018 for a game development class at DePaul
+			University. Responsible for in game art assets and over all game
+			design through the project.
+		</Card>
+		<Image src="{base}/weathergods/5.gif" title="Weather Gods Gif5" />	
 </div>

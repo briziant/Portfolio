@@ -5,9 +5,17 @@
 	import Header from '$lib/Header.svelte';
 	import Image from '$lib/Image.svelte';
 	import Video from '$lib/Video.svelte';
+	import Divider from '$lib/Divider.svelte';
+	import Subheader from '$lib/Subheader.svelte';
 </script>
 
 <Back><Header>coin party</Header></Back>
+<span>Development Time: 10 weeks</span>
+<span>Tools Used: Unreal Engine, Lyra game kit</span>
+<span>Role on Project: Level Design</span>
+<span>Date of Development: November 2022</span>
+<Divider />
+<Subheader>Pre-Production</Subheader>
 <div class="w-full grid grid-cols-2 gap-4">
 	<Card>
 		Coin party is a capstone project and smash style game, in which players
@@ -18,6 +26,8 @@
 		src="https://www.youtube.com/embed/9-cLYP2f0zQ"
 		title="Coin Party Trailer" />
 </div>
+<Divider />
+<Subheader>Pre-Production</Subheader>
 <Card>
 	For my design goals on this project I tried to use more kitbashing than I
 	had on my previous projects. We used Paper ZD to handle displaying the
@@ -28,6 +38,8 @@
 	<Image src="{base}/coinparty/1.png" title="Coin Party 1" />
 	<Image src="{base}/coinparty/2.png" title="Coin Party 2" />
 </div>
+<Divider />
+<Subheader>Pre-Production</Subheader>
 <Card>
 	The cover and below image are of a prototyped spa level that went un-used in
 	the final game. The goal of this level was to have clouds that would drift
