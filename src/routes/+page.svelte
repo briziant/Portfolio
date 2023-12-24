@@ -39,10 +39,10 @@
 			href="{base}/projects/weathergods"
 			src="{base}/weathergods/Cover.png"
 			title="weather gods" />
-			<Cover
+			<!-- <Cover
 			href="{base}/projects/coinparty"
 			src="{base}/coinparty/Cover.png"
-			title="Coin Party" />
+			title="Coin Party" /> -->
 			<Cover
 			href="{base}/projects/interiorleveldesign"
 			src="{base}/interiorleveldesign/Cover.jpg"
