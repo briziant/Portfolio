@@ -84,7 +84,7 @@
 <Divider />
 <Subheader>Post-Mortem</Subheader>
 <Card>
-	This project taught me a lot. I was able to achieve a lot with this project. Telling a story
+	This project taught me a lot and was able to achieve a lot in the short amount of time working on it. Telling a story
 	though methods other than dialogue was an interesting challenge, one that I had taken on with my
 	gameboy development projects as well. However with this project I was able to use more props and visual effects
 	due to the higher limitations of the hardware and engine. So it was challenging to achieve the atmosphere I was going for.

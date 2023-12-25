@@ -9,10 +9,10 @@
 </script>
 
 <Back><Header>Modern House</Header></Back>
-<span>Development Time: 2 weeks</span>
+<span>Development Time: 4 weeks</span>
 <span>Tools Used: Unreal Engine</span>
 <span>Role on Project: Level Design, solo development</span>
-<span>Date of Development: August 2023</span>
+<span>Date of Development: March 2023</span>
 <Divider />
 <Subheader>Conceptual Design</Subheader>
 <div class="grid grid-cols-2 gap-4">
@@ -27,21 +27,22 @@
 <Divider />
 <Subheader>Initial Design</Subheader>
 <Card>
-	The design of the house was modeled so that the house would sit in the sun
-	line. Using this I strategically placed the bedroom and the kitchen in the
-	east facing side of the structure to allow for the morning to light those
-	rooms as you would naturally occupy them. I placed the office in the west
-	side of the home for the same reason, giving the office the mid-day light
-	and into the evening.
+	The project was an exercise in modern design, feng shui, as well as real
+	world implementations to try to build a house that would be interesting
+	to conceptualize a futuristic yet modern design.
 </Card>
 <Image src="{base}/modernhouse/1.png" title="Modern House" />
 <Divider />
 <Subheader>Design Choices</Subheader>
 <div class="w-full grid grid-cols-[1fr_1.25fr] gap-4">
 	<Card>
-		The project was an exercise in modern design, feng shui, as well as real
-		world implementations to try to build a house that would be interesting
-		to conceptualize a futuristic yet modern design.
+		The design of the house was modeled so that the house would sit east/west in the sun
+		line. I designed the bedroom and the kitchen in the east facing side of the home to
+		 allow for the morning to light those rooms as you would naturally occupy them. 
+		 I placed the office in the west side of the home for the same reason, giving the 
+		 office the mid-day light and into the evening. Leaving the family room and bathrooms inclosed
+		 in the concrete sides of the house to allow for some places for privacy. I also went for a art deco
+		 black and white color scheme for the home, giving the home a modern yet elegant feel.
 	</Card>
 	<Image src="{base}/modernhouse/2.png" title="Modern House 2" />
 </div>

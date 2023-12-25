@@ -43,7 +43,9 @@
 <div class="grid xl:grid-cols-2 max-lg:grid-rows-2 gap-4">
 		<Card>
 			A Long Journey was a game designed for a narrative design project. The goal of this game 
-			was to tell a story with limited to no dialogue. I opted to use limited dialogue because
+			was to tell a story with limited to no dialogue. This project was an excerise in letting the level tell the story.
+			The player needs to pay attention to what is happening around them and piece together the story using the
+			limited dialogue they're given. I opted to use limited dialogue because
 			I felt that the story would hold more meaning and give the game a little bit of replayability
 			once you played through the game the first time and saw the conclusion. You would want to go back
 			and read the dialogue with a understanding of what happens at the end of the story and it would give
