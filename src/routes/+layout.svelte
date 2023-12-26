@@ -31,7 +31,11 @@
 	class="w-full overflow-hidden flex flex-col justify-start items-center relative h-auto overflow-y-auto align-middle bg-slate-950 text-slate-300">
 	<div
 		class="w-3/4 p-8 flex flex-row justify-between items-center align-middle text-2xl">
-		<div>Bryant Humphry</div>
+		<a
+			href="{base}/about"
+			class="transition ease-in-out duration-150 hover:text-pallet-accent">
+			Bryant Humphry
+		</a>
 		<div class="flex flex-row gap-4 align-middle items-center">
 			{#each menu as m}
 				<a
