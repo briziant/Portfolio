@@ -9,17 +9,18 @@
 </script>
 
 <Back><Header>Interior Level Design</Header></Back>
-<span>Development Time: 2 weeks</span>
+<span>Development Time: 4 weeks</span>
 <span>Tools Used: Unreal Engine</span>
 <span>Role on Project: Level Design, solo development</span>
-<span>Date of Development: August 2023</span>
+<span>Date of Development: August 2015</span>
 <div class="grid grid-cols-2 gap-4">
 	<Card>
-		Level designer with a heavy focus on traditional design philosophies. My
-		level design implements elements of feng shui and modern architecture to
-		give players rich and deep immersive experiences. I have experience in
-		working in 2D and 3D, throughout all stages of development from project
-		inception to published software.
+		This is one of my original projects that I created when I started my game development path. 
+		This was a final project that was created for a class at DePaul University. The task was to
+		create a room that was part of a larger enviroment but could function by itself. I chose to
+		creat a living room for an apartment. As I felt a living room could function as it's own space
+		and show off how a space can be minimal yet still functional. My level design implements elements 
+		of feng shui and modern architecture to give players rich and deep immersive experiences.
 	</Card>
 	<Image
 		src="{base}/interiorleveldesign/Cover.jpg"
