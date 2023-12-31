@@ -14,7 +14,7 @@
 		},
 		{
 			name: 'contact',
-			link: 'mailto:humphrybryant@gmail.com',
+			link: 'mailto:contact@briziant.com',
 		},
 		{
 			icon: IconBrandLinkedin,
