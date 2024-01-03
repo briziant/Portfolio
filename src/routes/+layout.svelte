@@ -14,7 +14,7 @@
 		},
 		{
 			name: 'contact',
-			link: 'mailto:contact@briziant.com',
+			link: base + '/contact',
 		},
 		{
 			icon: IconBrandLinkedin,
