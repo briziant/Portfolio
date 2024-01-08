@@ -30,7 +30,7 @@
 <div
 	class="w-full overflow-hidden flex flex-col justify-start items-center relative h-auto overflow-y-auto align-middle bg-slate-950 text-slate-300">
 	<div
-		class="w-3/4 p-8 flex flex-row justify-between items-center align-middle text-2xl">
+		class="w-full md:w-3/4 p-8 flex flex-col md:flex-row justify-between items-center align-middle md:text-2xl">
 		<a
 			href="{base}/about"
 			class="transition ease-in-out duration-150 hover:text-pallet-accent">
@@ -51,22 +51,26 @@
 			{/each}
 		</div>
 	</div>
-	<div class="border-b-2 rounded-md border-pallet-accent w-3/4 mb-4" />
+	<div class="border-b-2 rounded-md border-pallet-accent w-full md:w-3/4 mb-4" />
 	<div
-		class="relative w-3/4 h-auto flex flex-col gap-4 align-middle items-center pb-4">
+		class="relative w-full md:w-3/4 h-auto flex flex-col gap-4 align-middle items-center pb-4">
 		<slot />
 	</div>
 	<div
-		class="flex gap-4 justify-center items-center w-full p-8 bg-slate-950 text-center text-pallet-background">
-		<div class="flex flex-col">
+		class="relative flex gap-4 justify-center items-center w-full p-8 bg-slate-950 text-center text-pallet-background">
+		<div class="relative flex flex-col">
 			<span>Bryant Humphry</span>
 			<span>humphrybryant@gmail.com</span>
+			<a
+				href="https://www.linkedin.com/in/bryant-humphry-594341136"
+				target="_blank"
+				class="absolute -right-12 bottom-2 uppercase transition ease-in-out duration-150 hover:text-pallet-accent">
+				<IconBrandLinkedin class="w-8 h-auto" />
+			</a>
 		</div>
 		<a
-			href="https://www.linkedin.com/in/bryant-humphry-594341136"
-			target="_blank"
-			class="uppercase transition ease-in-out duration-150 hover:text-pallet-accent">
-			<IconBrandLinkedin class="w-8 h-auto" />
-		</a>
+			class="text-gray-300 absolute md:right-4 bottom-2 md:bottom-4 text-opacity-60 hover:text-opacity-100"
+			href="https://aidoge.xyz/"
+			target="_blank">by Anton Kuperman</a>
 	</div>
 </div>
