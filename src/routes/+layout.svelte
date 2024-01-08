@@ -60,7 +60,7 @@
 		class="relative flex gap-4 justify-center items-center w-full p-8 bg-slate-950 text-center text-pallet-background">
 		<div class="relative flex flex-col">
 			<span>Bryant Humphry</span>
-			<span>humphrybryant@gmail.com</span>
+			<span>Contact@Briziant.com</span>
 			<a
 				href="https://www.linkedin.com/in/bryant-humphry-594341136"
 				target="_blank"
