@@ -15,7 +15,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/Portfolio'
+			base: process.argv.includes('dev') ? '' : ''
 		}
 	},
 	preprocess: vitePreprocess()
