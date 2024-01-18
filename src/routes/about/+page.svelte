@@ -30,7 +30,7 @@
 			I've done as well as some of the organizations that I collaborate with
 			and donate to.<br />
 			Outside of game development I enjoy photography, learning new skills
-			and trades, and a healthy dose of metal music.
+			and trades, and a healthy dose of metal music. I also write, collect Final Fantasy memorabilia and classic metal albums and band shirts.
 		</span>
 		<span> </span>
 	</div>
