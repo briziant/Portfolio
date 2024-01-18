@@ -29,7 +29,7 @@
 			find a copy of my Resume to explain in greater detail some of the work
 			I've done as well as some of the organizations that I collaborate with
 			and donate to.<br />
-			Outside of game development I enjoy photography, learning new skills
+			Outside of game development I enjoy photography and skating, learning new skills
 			and trades, and a healthy dose of metal music.
 		</span>
 		<span> </span>
