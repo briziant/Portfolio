@@ -12,7 +12,7 @@
 <span>Development Time: 4 weeks</span>
 <span>Tools Used: Unreal Engine</span>
 <span>Role on Project: Level Design, solo development</span>
-<span>Date of Development: April 2023</span>
+<span>Date of Development: October 2022</span>
 <div class="grid grid-cols-2 gap-4">
 	<Card>
 		This is one of my original projects that I created when I started my game development path. 
